@@ -1,97 +1,78 @@
-<!DOCTYPE html>
-<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
-  <html>
-      <head>
-            <title>EZRA - Library Catalog</title>
-                <link rel="stylesheet" href="http://knowbleproductions.com/ezra/ezra-styles.css">
-                    <meta name="viewport" content="width=device-width,user-scalable=yes">
-                      </head>
-      <body>
-
-        <div id="header">
-
-
-          <div class="logo">
-
-                <a href="https://www.wittenberg.edu">
-                      <img src="http://knowbleproductions.com/ezra/images/wittlogo.png" alt="Wittenberg Logo" width="200px">
-                          </a>
-                    </div>
-
-
-          <div class="main-links">
-
-                <li><a href="http://www.wittenberg.edu/lib">Library Website</a></li>
-                    <li><a href="#">Ezra Main Page</a></li>
-
-
-
-                        </div>
-
-
-          </div>
-
-
-
-
-
-        <h1>EZRA Library Catalog</h1>
-
-        <div id="gray-box">
-
-                  <h1 class="search">Search</h1>
-
-                  <div id="search-box">
-
-
-
-                      <form>
-
-                        <select id="Search by" name="search by" title="search by">
-                                <option>Keyword</option>
-                                      <option>Title</option>
-                                            <option>Author</option>
-                                                  <option>Subject Heading</option>
-                                                        <option>Instructor</option>
-                                                              <option>Dept & Course</option>
-                                                                    <option>ISBN/ISSN</option>
-                                                                          <option>Call Number</option>
-                                                                                <option>OCLC Number</option>
-                                                                                      <option>Other Number</option>
-                                                                                          </select>
-                            <input type="text" title="search term" placeholder="Search Terms" />
-                            <select id="Search in" name="search in" title="search in">
-                                    <option>Entire Collection</option>
-                                          <option>Main Stacks</option>
-                                                <option>Reference</option>
-                                                      <option>Microform</option>
-                                                            <option>Periodicals</option>
-                                                                  <option>AV/Media</option>
-                                                                        <option>Archives/Thomas Rare</option>
-                                                                              <option>Leisure Collection</option>
-                                                                                    <option>Curriculum Resource Center</option>
-                                                                                        </select>
-                                <input type="submit" value="Search" title="submit" />
-                                  </form>
-                      </div><!--id="search-box"-->
-                  <div id="advanced">
-                          <li><a href="https://ezra.wittenberg.edu/search/X">OhioLINK Catalog</a></li>
-                                 <li><a href="">WorldCat</a></li>
-                                    <li><a href="">Advanced Search</a></li>
-                                    </div>
-
-                  </div>
-
-
-        <div id="links">
+<!DOCTYPE html> 
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8">
+      <title>EZRA - Library Catalog</title>
+      <link rel="stylesheet" href="http://knowbleproductions.com/ezra/ezra-styles.css">
+      <meta name="viewport" content="width=device-width,user-scalable=yes">
+      <link rel="shortcut icon" href="https://www.wittenberg.edu/sites/default/files/apple-icon-180x180_0.png" type="image/png" />
+   </head>
+   <body>
+      <div id="header">
+         <div class="logo">
+            <a href="https://www.wittenberg.edu">
+            <img src="http://knowbleproductions.com/ezra/images/wittlogo.png" alt="Wittenberg Logo" width="200"> 
+            </a>
+         </div>
+         <div class="main-links">
             <ul>
-                <a href="https://ezra.wittenberg.edu/patroninfo"> <li>Renew &amp; Your Library Account</li></a>
-                    <a href="https://www.wittenberg.edu/lib/redirect/ejournals"><li>Search Journals</li></a>
-                        <a href="http://www6.wittenberg.edu/lib/av.php"><li>Audio-Visual Search</li></a>
-                              <a href="http://ezra.wittenberg.edu/screens/virtualcol.html"><li>All Search Options</li></a>
-                                  <a href="http://ezra.wittenberg.edu/screens/libinfo.html"><li>Help</li></a>
-                                    </ul>
-            </div><!--id="links"-->
-        </body>
-      </html>
-  
+               <li><a href="http://www.wittenberg.edu/lib">Library Website</a></li>
+               <li><a href="#">Ezra Main Page</a></li>
+            </ul>
+         </div>
+      </div>
+      <h1>EZRA Library Catalog</h1>
+      <div id="gray-box">
+         <h1 class="search">Search</h1>
+         <div id="search-box">
+            <form>
+               <label for="Search_by" class="visuallyhidden">Search by </label>
+               <select id="Search_by" name="search by">
+                  <option>Keyword</option>
+                  <option>Title</option>
+                  <option>Author</option>
+                  <option>Subject Heading</option>
+                  <option>Instructor</option>
+                  <option>Dept & Course</option>
+                  <option>ISBN/ISSN</option>
+                  <option>Call Number</option>
+                  <option>OCLC Number</option>
+                  <option>Other Number</option>
+               </select>
+               <label for="search_terms" class="visuallyhidden">Search Terms</label>
+               <input id="search_terms" type="text" placeholder="Search Terms" />
+               <label for="Search_in" class="visuallyhidden">Search In</label>
+               <select id="Search_in" name="search in">
+                  <option>Entire Collection</option>
+                  <option>Main Stacks</option>
+                  <option>Reference</option>
+                  <option>Microform</option>
+                  <option>Periodicals</option>
+                  <option>AV/Media</option>
+                  <option>Archives/Thomas Rare</option>
+                  <option>Leisure Collection</option>
+                  <option>Curriculum Resource Center</option>
+               </select>
+               <input id="search-submit" type="submit" value="Search" title="submit" />
+            </form>
+         </div>
+         <!--id="search-box"-->
+         <div id="advanced">
+            <ul>
+               <li><a href="https://ezra.wittenberg.edu/search/X">OhioLINK Catalog</a></li>
+               <li><a href="">WorldCat</a></li>
+               <li><a href="">Advanced Search</a></li>
+            </ul>
+         </div>
+      </div>
+      <div id="links">
+         <ul>
+            <li><a href="https://ezra.wittenberg.edu/patroninfo">Renew &amp; Your Library Account</a></li>
+            <li><a href="https://www.wittenberg.edu/lib/redirect/ejournals">Search Journals</a></li>
+            <li><a href="http://www6.wittenberg.edu/lib/av.php">Audio-Visual Search</a></li>
+            <li><a href="http://ezra.wittenberg.edu/screens/virtualcol.html">All Search Options</a></li>
+            <li><a href="http://ezra.wittenberg.edu/screens/libinfo.html">Help</a></li>
+         </ul>
+      </div>
+   </body>
+</html>
